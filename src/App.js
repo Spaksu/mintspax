@@ -175,7 +175,7 @@ function App() {
   };
 
   const getConfig = async () => {
-    const configResponse = await fetch("/Spax/config/config.json", {
+    const configResponse = await fetch("/mintspax/config/config.json", {
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json",
@@ -199,13 +199,13 @@ function App() {
         flex={1}
         ai={"center"}
         style={{ padding: 24, backgroundColor: "var(--primary)" }}
-        image={CONFIG.SHOW_BACKGROUND ? "/Spax/config/images/bg.png" : null}
+        image={CONFIG.SHOW_BACKGROUND ? "/mintspax/config/images/bg.png" : null}
       >
-        <StyledLogo alt={"logo"} src={"/Spax/config/images/logo.png"} />
+        <StyledLogo alt={"logo"} src={"/mintspax/config/images/logo.png"} />
         <s.SpacerSmall />
         <ResponsiveWrapper flex={1} style={{ padding: 44 }} test>
           <s.Container flex={1} jc={"center"} ai={"center"}>
-            <StyledImg alt={"example"} src={"/Spax/config/images/example.gif"} />
+            <StyledImg alt={"example"} src={"/mintspax/config/images/example.gif"} />
           </s.Container>
           <s.SpacerLarge />
           <s.Container
@@ -373,7 +373,7 @@ function App() {
           <s.Container flex={1} jc={"center"} ai={"center"}>
             <StyledImg
               alt={"example"}
-              src={"/Spax/config/images/example.gif"}
+              src={"/mintspax/config/images/example.gif"}
               style={{ transform: "scaleX(-1)" }}
             />
           </s.Container>
