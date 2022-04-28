@@ -1,7 +1,7 @@
 {
   "name": "Spax_minting_dapp",
   "version": "1.0.0",
-  "homepage": "https://spaksu.github.io/Spax",
+  "homepage": "https://spaksu.github.io/mintspax",
   "description": "Spax Minting NFTs Dapp",
   "private": true,
   "dependencies": {
