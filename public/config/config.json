@@ -10,8 +10,8 @@
   "SYMBOL": "SPAX",
   "MAX_SUPPLY": 10000,
   "WEI_COST": 0,
-  "DISPLAY_COST": 0,
-  "GAS_LIMIT": 250000,
+  "DISPLAY_COST": "Free",
+  "GAS_LIMIT": 180000,
   "MARKETPLACE": "Opeansea",
   "MARKETPLACE_LINK": "https://opensea.io/collection/spax-official",
   "SHOW_BACKGROUND": true
